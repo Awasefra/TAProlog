@@ -172,7 +172,7 @@ interface3(P,W1,D,W2) :-
 	atom_concat(A,D,B),
 	atom_concat(B,W2,W3),
 	jpl_new('javax.swing.JFrame', ['Halaman Diagnosis'], F),
-	jpl_new('javax.swing.JLabel',['-Sistem Diagnosis Gejala Covid-19-'],LBL),
+	jpl_new('javax.swing.JLabel',['-Sistem Diagnosis Gejala Demam Berdarah'-'],LBL),
 	jpl_new('javax.swing.JPanel',[],Pan),
 	jpl_call(Pan,add,[LBL],_),
 	jpl_call(F,add,[Pan],_),
